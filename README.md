@@ -53,8 +53,8 @@ AUTHOR: Charlotte Brontë
 REVIEW: (review here)
 
 STARS: * * *
-BOOK NAME: Shirley
-AUTHOR: Charlotte Brontë
+BOOK NAME: Agnes Grey
+AUTHOR: Anne Brontë
 REVIEW: (review here)
 
 
