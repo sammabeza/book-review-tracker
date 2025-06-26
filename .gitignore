@@ -1,0 +1,10 @@
+# Compiled binaries
+*.exe
+*.out
+book_review
+
+# Output files
+bookreview.txt
+
+# VS Code settings
+.vscode/
