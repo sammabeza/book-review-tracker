@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "input_utils.h"
 
 #define MAX_BOOKS 100
 #define MAX_STARS 5 
@@ -14,23 +15,6 @@ typedef struct
     char author[MAX_LENGTH];
     char review[MAX_LENGTH];
 } book_review;
-
-// helper function to clear the input buffer
-void clear_input_buffer(void)
-{
-    int c;
-    while ((c = getchar()) != '\n' && c != EOF);
-}
-
-// helper function to remove trailing newline from fgets
-void trim_newline(char *str)
-{
-    size_t len = strlen(str);
-    if (len > 0 && str[len - 1] == '\n')
-    {
-        str[len - 1] = '\0';
-    }
-}
 
 // function to open a file where all the book reviews will go to
 FILE* open_file()
